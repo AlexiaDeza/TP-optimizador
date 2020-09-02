@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Optimizador</title>
+    <meta name="description" content="En este sitio se calcula el mejor corte para su pieza" />
+    <meta name="author" content="Hlorido, Gillig, Ferraris y Deza"/>
+    <meta name="keywords" content="Optimizador, Corte, Cortes, Optimizador de cortes"/>
+    <link rel="stylesheet" type="text/css" href="home.component.css" media="screen"/>
+</head>
+<body background="fondo3.jpg">
+        <header>
+        <font size=7, color="black", face="Berlin Sans FB">
+            <h1 align="center">Optimizador de cortes</h1>
+        </font>
+        <div class="divboton" class="btn btn-primary" *ngIf="!user" (click)="login()">
+          <a class="boton" href="login.component.html">Iniciar sesión</a>
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.divboton{
+    text-align: center;
+    margin: 200px;
+    display: block;
+}
+a{
+    
+    border: 5px solid #800a0a; /*anchura, estilo y color borde*/
+    padding: 20px; /*espacio alrededor texto*/
+    background-color: #a32a2a; /*color botón*/
+    color: #000000; /*color texto*/
+    text-decoration: underline overline; /*decoración texto*/
+    text-transform: full-width; /*capitalización texto*/
+    font-family: 'Berlin Sans FB', sans-serif; /*tipografía texto*/
+    border-radius: 10px; /*bordes redondos*/
+}
+
+a:hover{
+    background-color: #ce4141;
+}
